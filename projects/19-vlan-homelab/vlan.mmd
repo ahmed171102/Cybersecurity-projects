@@ -1,0 +1,5 @@
+flowchart TB
+  fw[Firewall default deny between VLANs]
+  fw --> trusted[VLAN 10 trusted 192.168.10.0/24]
+  fw --> iot[VLAN 20 IoT 192.168.20.0/24]
+  fw --> lab[VLAN 30 lab 192.168.30.0/24]

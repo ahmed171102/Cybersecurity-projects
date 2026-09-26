@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Phishing awareness quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Spot the safer message</h1>
+    <p>This page is a lesson. It does not collect passwords. Nothing you type is stored.</p>
+
+    <article>
+      <h2>Message A — lookalike, urgent</h2>
+      <p class="fake">Your mailbox will close in 15 minutes. Open http://paypa1-secure.example and confirm the account now.</p>
+    </article>
+    <article>
+      <h2>Message B — slower, official</h2>
+      <p class="safe">We sent a notice in the bank app. Open the official app you already installed. We will not ask for a password by email or by SMS.</p>
+    </article>
+
+    <form id="quiz">
+      <fieldset>
+        <legend>1. Which message is the safer habit?</legend>
+        <label><input type="radio" name="q1" value="a"> Message A</label>
+        <label><input type="radio" name="q1" value="b"> Message B</label>
+      </fieldset>
+      <fieldset>
+        <legend>2. A lookalike domain often changes one character. What do you do?</legend>
+        <label><input type="radio" name="q2" value="click"> Click, because the text says it is urgent</label>
+        <label><input type="radio" name="q2" value="app"> Ignore the link and open the official app</label>
+      </fieldset>
+      <button type="button" id="grade">Check answers</button>
+    </form>
+    <p id="result"></p>
+  </main>
+  <script src="quiz.js"></script>
+</body>
+</html>

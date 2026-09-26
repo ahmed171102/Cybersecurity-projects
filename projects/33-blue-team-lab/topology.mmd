@@ -1,0 +1,7 @@
+flowchart LR
+  attacker[Lab attacker VM]
+  target[Lab target VM]
+  monitor[Monitor VM]
+  attacker --- labnet[Isolated lab network]
+  target --- labnet
+  monitor --- labnet

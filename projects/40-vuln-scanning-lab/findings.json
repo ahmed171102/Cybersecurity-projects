@@ -1,0 +1,30 @@
+[
+  {
+    "id": "V-1",
+    "title": "Remote desktop from any source",
+    "cvss": 9.8,
+    "exploit": true,
+    "asset_value": "high"
+  },
+  {
+    "id": "V-2",
+    "title": "Missing HSTS",
+    "cvss": 5.4,
+    "exploit": false,
+    "asset_value": "medium"
+  },
+  {
+    "id": "V-3",
+    "title": "Banner version on a lab printer",
+    "cvss": 3.1,
+    "exploit": false,
+    "asset_value": "low"
+  },
+  {
+    "id": "V-4",
+    "title": "Missing object check on /account (see project 49)",
+    "cvss": 7.5,
+    "exploit": true,
+    "asset_value": "high"
+  }
+]

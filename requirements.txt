@@ -1,0 +1,7 @@
+cryptography
+flask
+werkzeug
+requests
+pyjwt
+dnspython
+reportlab

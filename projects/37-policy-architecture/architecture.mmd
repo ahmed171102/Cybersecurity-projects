@@ -1,0 +1,10 @@
+flowchart TB
+  policy[Policies: classify, access, recover]
+  apps[Apps and identity]
+  data[Encrypted data and backups]
+  detect[Logs and alerts]
+  net[Hosts and networks]
+  policy --> apps
+  apps --> data
+  data --> detect
+  detect --> net

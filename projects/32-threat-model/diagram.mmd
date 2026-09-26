@@ -1,0 +1,6 @@
+flowchart LR
+  browser[Browser]
+  app[Notes app 127.0.0.1:5002]
+  db[(SQLite notes.db)]
+  browser -->|login and CSRF form| app
+  app -->|parameterized SQL| db

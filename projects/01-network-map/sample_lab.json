@@ -1,0 +1,16 @@
+{
+  "name": "Cairo home lab",
+  "zones": {
+    "trusted": "phones and laptops you sit at",
+    "iot": "devices that should not start conversations with the laptops",
+    "lab": "virtual machines used for practice"
+  },
+  "devices": [
+    {"name": "router", "zone": "trusted", "address": "192.168.1.1", "note": "gateway"},
+    {"name": "laptop", "zone": "trusted", "address": "192.168.1.20", "note": "daily work"},
+    {"name": "phone", "zone": "trusted", "address": "192.168.1.30", "note": "personal"},
+    {"name": "iot-bulb", "zone": "iot", "address": "192.168.20.15", "note": "no path into trusted"},
+    {"name": "vm-ubuntu", "zone": "lab", "address": "192.168.30.10", "note": "server practice"},
+    {"name": "vm-kali", "zone": "lab", "address": "192.168.30.11", "note": "only this zone"}
+  ]
+}

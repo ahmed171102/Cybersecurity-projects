@@ -1,0 +1,11 @@
+name: security-gate
+on: [push]
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python projects/35-secure-devops/security_gate.py
