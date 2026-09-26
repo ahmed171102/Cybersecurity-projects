@@ -12,7 +12,7 @@ Five projects belong on a CV. The other 47 are practice. Do not list all 52.
 | `projects/35-secure-devops` | A build that fails on a hard-coded secret |
 | `projects/49-api-security-lab` | An insecure object reference, and the fix |
 
-Details are in `docs/CAREER.md`.
+What to put on a resume, and what to leave off, is in `docs/CV_AND_PORTFOLIO.md`.
 
 ## Setup
 

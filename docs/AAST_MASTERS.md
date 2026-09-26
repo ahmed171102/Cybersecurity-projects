@@ -8,6 +8,8 @@ Every number below (GPA, credit hours, duration, English scores, fees) comes fro
 
 Official pages used are linked next to the claim they support.
 
+**If you enroll:** you do not build the master's from scratch. The academy already defined the cores, the elective menu, the credit hours, and the thesis rules. You choose a track, pick electives from that menu, and write one supervised thesis or case study. Your portfolio can be the starting point of that thesis. It does not have to be thrown away. The full picture is in [section 6](#6-architecture-if-you-enroll) and the lists you can choose from are in [section 7](#7-topics-you-can-choose).
+
 ---
 
 ## 1. Natural faculty and campus
@@ -319,6 +321,227 @@ He can already do this while waiting on admissions, and he should keep doing it 
    - Ask the nine questions in section 3. Attach a one-page note: CE bachelor (AASTMT Cairo), you graduate 2026, you want application security / securing AI and backends, ask which program and which supervisor fits.
 2. **Transcript lines that matter** when they look at “relevant major” and electives: computer networks, any security or crypto course, databases, operating systems, software engineering, AI/ML, and the internships (REST APIs, encryption, Cisco/Wireshark/Nmap). If a course title is vague, keep the official syllabus PDF.
 3. **Do not pause the portfolio** while emailing. Intakes are on a September / February cycle for CCIT ([source](https://www.aast.edu/en/colleges/ccit/heliopolis/contenttemp.php?page_id=34500013)); engineering registration is after college approval ([source](https://aast.edu/en/colleges/coe/heliopolis/contenttemp.php?page_id=34600062)). A reply can take weeks. A lab write-up or API demo this month is still useful if the next seat is in 2027.
+
+---
+
+## 6. Architecture if you enroll
+
+You do **not** create a master's from scratch.
+
+| Piece | Who already built it | What you do |
+| --- | --- | --- |
+| Degree rules, credits, duration | The college | Follow them. Do not design a custom degree. |
+| Core courses | The department | Take them. They are not optional. |
+| Elective menu | The department | Choose a few courses from the published list. You do not invent new course titles. |
+| Admission test and any qualifying courses | The department | Sit the test. If they assign extra courses, pass those. You do not write that list. |
+| Supervisor and thesis field | A professor, after you have enough credits | You propose a question. They approve it, narrow it, or reject it. |
+| The thesis or case-study report | Nobody yet | This is the one thing you produce. It is supervised. It is not a startup, a new programming language, or a SOC you build alone. |
+| Portfolio, Kali lab, GitHub | You, already | Keep going. A supervisor can let project 23 or 31 become the system you evaluate. You do not start over at zero. |
+
+"Original" for a thesis means a clear question, a method, and a result you measured. It does not mean "no one has ever built a web API." Extending your notes app or your token API, then measuring one security control, is a normal shape. Copying a textbook chapter is not.
+
+### The shape, first choice (M.Sc. Computer Engineering)
+
+Cairo has not published its own full course table. This shape follows the Smart Village M.Sc. page, which is the fullest official CE master's page, plus the Heliopolis rule that the thesis comes after at least 15 credit hours and 24 months from the first class. Confirm the credit split with Ext. 303 before you rely on 36 versus 39.
+
+```text
+Apply (bachelor, GPA, documents)
+        |
+        v
+Department admission test
+        |
+        +-- fail --> qualifying courses, GPA at least 3.0, then enroll
+        |
+        v
+Year 1: 4 core courses (fixed) + start the 4 electives you chose
+        |
+        v
+Register thesis after the rule they confirm
+(Smart Village text says both "after 8 courses" and "after 12 credits")
+        |
+        v
+Proposal with supervisor (about 6 months after thesis registration on the CCIT rules;
+CE pages are less specific — ask)
+        |
+        v
+Build and measure on a lab you are allowed to use
+        |
+        v
+Write the thesis, defend, graduate
+Minimum 2 years from the first course. Maximum 5.
+```
+
+What you hand in at the end is a thesis, a transcript, and (if the work is strong enough) a paper. CCIT's process asks for published papers at the viva. The CE pages talk about publishing. Neither page promises that every student publishes.
+
+### What you do not have to create
+
+- A new college, a new course, or a cybersecurity master's title. That title was not on the catalog.
+- A company, a product for sale, or a 24/7 SOC.
+- Malware, an attack lab against the public internet, or a scanner pointed at the academy network. The thesis stays inside written permission and the supervisor's lab.
+- A second portfolio that ignores the one you already have. Ask the supervisor if projects 23, 31, 32, and 49 can be the system under test.
+
+### What you do have to create
+
+One supervised document:
+
+- **M.Sc. (CE or CS or IS):** a thesis. You pick the question with the supervisor. The college picks the examiners.
+- **M.Eng.:** a 6-credit case study, not a research thesis. The published fields are **Embedded Systems** or **Computer Networks**. If your question is "secure this API," M.Eng. is the wrong container unless the supervisor maps that question onto computer networks and the committee accepts it.
+
+### Two tracks side by side
+
+| | M.Sc. Computer Engineering | M.Sc. Computer Science (CCIT) | M.Eng. Computer Engineering |
+| --- | --- | --- | --- |
+| You invent the program? | No | No | No |
+| Cores | 4 fixed | 4 fixed + Selected Topics | 4 fixed, including a software-engineering core |
+| You choose | 4 electives from 5 groups | 3 electives from the CS list | 2 shared electives + 3 specialized electives |
+| The thing you write | Thesis (12 or 15 credits; pages disagree) | Thesis, 12 credits | Case study, 6 credits, embedded systems or networks |
+| From scratch? | No. Question + measurement on a system that can already exist | Same | No. A supervised report in one of two published fields |
+| Best if you want | Security + networks + a research title, and you are already CE | Software, AI, and Data Security, if they accept a CE bachelor | A shorter professional project, not a paper |
+
+---
+
+## 7. Topics you can choose
+
+These lists are copied from official pages. A course on the list is not a promise that Cairo runs it next semester. Email Ext. 303 or the CCIT vice dean and ask which of your picks are actually scheduled.
+
+Mark the rows you want. A suggested set for application security and securing backends is marked **Suggested**. You can replace any suggested elective with another row from the same menu.
+
+### A. M.Sc. Computer Engineering — cores (not a choice)
+
+Source: [M.Sc. Computer Engineering (Smart Village)](https://aast.edu/en/colleges/coe/smartvillage/dept/contenttemp.php?page_id=42100047). Each line is 3 credits. You take all four.
+
+| Code | Course | Why it is on your path |
+| --- | --- | --- |
+| ECE 6121 | Advanced Computer Architecture | Required |
+| ECE 6211 | Advanced Programming Languages | Required |
+| ECE 6331 | Computer Networks and Security | Required. This is the security core. |
+| ECE 6541 | Systems Science and Engineering | Required |
+
+Thesis parts on that page: **ECE 7001** Research Methodology (part 1) and **ECE 7002** Data Collection and Analysis (part 2).
+
+### B. M.Sc. Computer Engineering — pick 4 electives
+
+Same source. Four courses, 3 credits each. Groups are labels, not cages: the page says any 4 from the elective groups.
+
+**Suggested set (security + one AI course + one software course):** ECE 7314, ECE 7334, ECE 7453, ECE 7213.
+
+| Code | Course | Group | Fit for you |
+| --- | --- | --- | --- |
+| ECE 7060 | Computer Engineering Seminars | — | Only if you want a seminar slot |
+| ECE 7122 | Advanced Digital Systems | Hardware | Skip unless you want hardware |
+| ECE 7123 | Embedded Systems Design | Hardware | Skip unless you want embedded |
+| ECE 7125 | VLSI System Design | Hardware | Skip |
+| ECE 7127 | Application-Specific Architectures | Hardware | Skip |
+| ECE 7129 | Computer Design and Performance Evaluation | Hardware | Skip |
+| ECE 7156 | DSP Hardware and Software System Design | Hardware | Skip |
+| ECE 7158 | Advanced Applications of Digital Signal Processing | Hardware | Skip |
+| ECE 7159 | Advanced Robotics | Hardware | Skip |
+| ECE 7212 | Advanced Database Systems | Software | Useful if the thesis stores sensitive data |
+| ECE 7213 | Software Engineering | Software | **Suggested.** Closest core skill to application security |
+| ECE 7257 | Modeling and Simulation | Software | Useful if you will measure a control |
+| ECE 7314 | Computer Systems Security | Networks and Security | **Suggested.** Take this |
+| ECE 7332 | CAD for Computer Communications Networks | Networks and Security | Optional |
+| ECE 7333 | Analysis and Design of Computer Networks | Networks and Security | Optional. Strong if the thesis is network defense |
+| ECE 7334 | Network Security | Networks and Security | **Suggested.** Take this |
+| ECE 7335 | Sensor Networks | Networks and Security | Only if you want IoT |
+| ECE 7337 | Mobile, Wireless and Ad-Hoc Networks | Networks and Security | Only if you want wireless |
+| ECE 7415 | Neural Networks Systems | AI & ML | Alternate AI pick |
+| ECE 7416 | Pattern Recognition | AI & ML | Alternate AI pick |
+| ECE 7417 | Data Mining Techniques and Applications | AI & ML | Alternate if the thesis looks at logs |
+| ECE 7453 | Advanced Topics in Artificial Intelligence | AI & ML | **Suggested** AI pick. Ask what the topic is that semester |
+| ECE 7542 | Real-Time Systems | Systems | Optional |
+| ECE 7543 | Data Compression and Image Processing | Systems | Skip unless the thesis is media |
+| ECE 7546 | Multimedia Engineering | Systems | Skip |
+| ECE 7555 | Distributed and Parallel Systems | Systems | Optional for a backend that scales |
+
+**Thesis question you can take to a supervisor (pick one, do not invent a fifth product):**
+
+1. Harden the notes app (project 31) and the token API (project 23), then measure what the owner-check and the short-lived token stop.
+2. Turn the mini SIEM (project 27) into a small detection test: how many failed logons before an alert, and what a normal backup does to that rule.
+3. Put a model behind an API and measure the cost of authentication, rate limiting, and encryption. The question is the overhead and the failure mode, not a new model from zero.
+
+Write your pick here when you decide:
+
+- Elective 1:
+- Elective 2:
+- Elective 3:
+- Elective 4:
+- Thesis question (1, 2, or 3):
+
+### C. M.Sc. Computer Science — if you switch to CCIT
+
+Source: [Form 13 Computer Science MSc PDF](https://aast.edu/openfiles/opencmsfiles/pdf_retreive_cms_open.php?disp_unit=345%2FForm+13+Computer+Science+MSc.pdf) (2013–2014 spec still posted). 15 credits mandatory, 9 credits elective (three courses), 12 credits thesis. Ask whether Cairo still uses this table.
+
+**Cores (not a choice):**
+
+| Code | Course |
+| --- | --- |
+| CS 701 | Distributed Systems |
+| CS 702 | Advanced Artificial Intelligence |
+| CS 703 | Theory of Programming Languages |
+| CS 704 | Complexity Theory and Applications |
+| CS 700 | Selected Topics in Computer Science |
+
+**Pick 3 electives.** Suggested: **CS 716 Data Security**, **CS 711 Advanced Software Engineering**, **CS 717 Advanced Database Management**.
+
+| Code | Course | Fit for you |
+| --- | --- | --- |
+| CS 710 | Design and Analysis of Parallel Algorithms | Skip unless you like theory |
+| CS 711 | Advanced Software Engineering | **Suggested** |
+| CS 712 | Algorithmic Graph Theory | Skip |
+| CS 713 | Compiler Construction | Skip |
+| CS 714 | Advanced Operating Systems | Strong alternate |
+| CS 715 | Image Analysis and Pattern Recognition | Only if the thesis is vision |
+| CS 716 | Data Security | **Suggested.** Policies, crypto, network and database security |
+| CS 717 | Advanced Database Management | **Suggested** if the thesis stores data |
+| CS 718 | Advanced Computer Graphics | Skip |
+| CS 719 | Contemporary Computer Architectures | Skip |
+
+Thesis parts: **CS 730** (3) and **CS 731** (9).
+
+Your pick:
+
+- Elective 1:
+- Elective 2:
+- Elective 3:
+
+### D. Master in Information Systems — only if you want enterprise security
+
+Source: [Master in Information Systems](https://aast.edu/en/colleges/ccit/smart/contenttemp.php?page_id=53000018).
+
+**Cores (not a choice):** IS 701 Decision Support and Intelligent Systems, IS 702 Advanced Database Management, **IS 703 Information Systems Security**, IS 704 Management Information Systems.
+
+**Pick 3**, plus IS 700 Selected Topics. Suggested if you still want appsec inside this degree: **IS 710 Advanced Software Engineering**, **IS 716 Software Testing and Quality Assurance**, **IS 711 Networking Applications**. The GIS, multimedia, and e-business rows are a different career.
+
+| Code | Course |
+| --- | --- |
+| IS 710 | Advanced Software Engineering |
+| IS 711 | Networking Applications |
+| IS 712 | Data Warehousing and Mining |
+| IS 713 | Knowledge Management for E-Business |
+| IS 714 | Information Systems Design |
+| IS 715 | Multimedia Information Systems |
+| IS 716 | Software Testing and Quality Assurance |
+| IS 717 | GIS and Spatial Database |
+| IS 718 | Quality Management and Assurance of Information Systems |
+
+### E. M.Eng. — only if you want the short project
+
+Source: [M.Eng. Computer Engineering](https://www.aast.edu/en/colleges/coe/southValley/dept/contenttemp.php?page_id=42100046).
+
+**Cores:** CC721 Advanced Computer Architecture, **CC731 Advanced Computer Networks and Security**, CC741 System Science and Engineering, **CC715E Software System Design and Software Engineering**.
+
+**Pick 2 shared electives.** Suggested: **CC734 Network Security** and **CC751E** is on the other list, so from this shared list take **CC734** and **CC733 Analysis and Design of Computer Networks** (or CC757 if you will simulate).
+
+**Pick 3 specialized electives.** Suggested for a secure backend, not a chip: **CC751E Web-based Application Design**, **CC745E Embedded Systems Software and SW Safety** only if they accept a software reading of "safety," and **CC717E Internet of Things** only if the case study is a device. If the committee forces embedded systems, this menu is the wrong degree for an API thesis.
+
+The case study **CC 790E** must relate to **Embedded Systems** or **Computer Networks**. That is a published limit. It is not a blank page.
+
+### What to send when you choose
+
+One email is enough. Fill the blanks from section B (or C if they send you to CCIT):
+
+"I am a Computer Engineering student at AASTMT Cairo, graduating 2026. I want the M.Sc. in Computer Engineering. My elective preference is ECE 7314, ECE 7334, ECE 7453, and ECE 7213. My thesis preference is question 1 or 2 in my note. Which of these courses run in the next intake, and which supervisor can take a thesis on application security?"
 
 ---
 

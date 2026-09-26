@@ -32,6 +32,10 @@ Or from the repo root, after `export PYTHONPATH=$(pwd):projects/49-api-security-
 
 The three status codes: 200 on the broken route, 403 on the secure route for bob, 200 for alice reading alice. This is a CV project.
 
+## Resume line
+
+Showed an API that returned any account by id, then added an owner check that returns 403 for the same request.
+
 ## Exercise
 
 Add `GET /secure/accounts` that lists only the caller's record. Confirm alice never sees bob's email.

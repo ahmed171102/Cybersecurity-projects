@@ -16,7 +16,11 @@ python3 projects/32-threat-model/stride_helper.py
 
 ## Portfolio deliverable
 
-The table in `STRIDE.md` with one extra row you wrote for a threat the current code does not cover yet. This is a CV project.
+The table in `STRIDE.md` with one extra row you wrote for a threat the current code does not cover yet. This is a CV project. See `docs/CV_AND_PORTFOLIO.md`.
+
+## Resume line
+
+Wrote a STRIDE model for that notes app and tied each threat to a control already in the code.
 
 ## Exercise
 

@@ -24,7 +24,11 @@ Send the token back as `Authorization: Bearer ...`.
 
 ## Portfolio deliverable
 
-Show alice opening `/admin/stats` and bob receiving 403 on the same path. This is a CV project. See `docs/CAREER.md`.
+Show alice opening `/admin/stats` and bob receiving 403 on the same path. This is a CV project. See `docs/CV_AND_PORTFOLIO.md`.
+
+## Resume line
+
+Built a lab API that issues 5-minute JWTs and returns 403 when a normal user calls an admin route.
 
 ## Exercise
 

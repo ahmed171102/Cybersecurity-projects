@@ -18,7 +18,11 @@ Open http://127.0.0.1:5002/login and sign in as `demo`.
 
 ## Portfolio deliverable
 
-A note saved in the app, plus a sentence each on the hash, the CSRF field, and the placeholder. This is a CV project. See `docs/CAREER.md`.
+A note saved in the app, plus a sentence each on the hash, the CSRF field, and the placeholder. This is a CV project. See `docs/CV_AND_PORTFOLIO.md`.
+
+## Resume line
+
+Built a notes app that stores password hashes, blocks forged form posts with a CSRF field, and sends SQL values as parameters.
 
 ## Exercise
 

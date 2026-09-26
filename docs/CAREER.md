@@ -4,7 +4,7 @@ Ahmed Adel Sayed Goda, Cairo. Computer Engineering, AASTMT, 2021–2026. Backend
 
 Target roles: application security, and securing AI or backend systems. The portfolio should sound like that. A list of 52 folder names does not.
 
-Show these five. Leave the rest as practice you can talk about if asked.
+Show these five, in this order: 31, 49, 23, 35, 32. Leave the rest as practice you can talk about if asked. Copy-paste resume lines and the one-page draft are in `docs/CV_AND_PORTFOLIO.md`.
 
 ## Project 23 — zero-trust API
 

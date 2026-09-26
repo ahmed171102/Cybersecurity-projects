@@ -17,7 +17,11 @@ python3 projects/35-secure-devops/app_demo.py
 
 ## Portfolio deliverable
 
-The green gate output, plus a screenshot of a failing run after you temporarily add `SECRET = "oops"` to a copy of the demo. This is a CV project.
+The green gate output, plus a screenshot of a failing run after you temporarily add `SECRET = "oops"` to a copy of the demo. This is a CV project. See `docs/CV_AND_PORTFOLIO.md`.
+
+## Resume line
+
+Added a build check that fails when a Python file assigns a secret in source.
 
 ## Exercise
 
